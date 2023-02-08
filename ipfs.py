@@ -19,6 +19,7 @@ def pin_to_ipfs(data):
 
 	hash_string=response.text[23:69]
 	print(hash_string)
+	cid=int(hash_string)
 	#hash=cid.get("Hash")
 	#print("cid is ", hash)
 	
