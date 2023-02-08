@@ -4,7 +4,7 @@ import json
 def pin_to_ipfs(data):
 	assert isinstance(data,dict), f"Error pin_to_ipfs expects a dictionary"
 	#YOUR CODE HERE
-	print(data.keys)
+	print(data.keys())
 	json_object = json.dumps(data, indent = 4) 
 	
 	projectId = "4948f0dbf13c4f82993af603b0ef4329"
