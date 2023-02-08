@@ -6,8 +6,8 @@ def pin_to_ipfs(data):
 	#YOUR CODE HERE
 	#print(data.keys())
 	print(data)
-	#json_object = json.dumps(data, indent = 4)
-	#print(json_object)
+	json_object = json.dumps(data, indent = 4)
+	print(json_object)
 	
 	projectId = "4948f0dbf13c4f82993af603b0ef4329"
 	projectSecret = "7e395492a0db48f4a0d7f8244902edd7"
