@@ -6,7 +6,7 @@ def pin_to_ipfs(data):
 	#YOUR CODE HERE
 	projectId = "<API_KEY>"
 	projectSecret = "<API_KEY_SECRET>"
-	response = requests.post('https://ipfs.infura.io:5001/api/v0/add', files=data, auth=(projectID,projectSecret))
+	response = requests.post('https://ipfs.infura.io:5001/api/v0/add', files=data, auth=(projectId,projectSecret))
 	cid=response
 	return cid
 
