@@ -17,7 +17,7 @@ def pin_to_ipfs(data):
 	projectSecret = "50ea124b3ea0cbb760fae468e2554c5e"
 	response = requests.post('https://ipfs.infura.io:5001/api/v0/add', files=files, auth=(projectId,projectSecret))
 	cid=response.text
-	hash_string=cid[2]
+	hash_string=cid[23:68]
 	print(hash_string)
 	#hash=cid.get("Hash")
 	#print("cid is ", hash)
