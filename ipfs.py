@@ -7,7 +7,7 @@ def pin_to_ipfs(data):
 	json_object = json.dumps(data, indent = 4)
 	
 	files = {
-    		'file': 'json_object'
+    		'file': json_object
 	}
 	
 	projectId = "2LRLd1HNXgtfnG9eQ5OkDYy1Lqw"
